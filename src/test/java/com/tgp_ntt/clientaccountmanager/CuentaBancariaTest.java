@@ -1,3 +1,5 @@
+package com.tgp_ntt.clientaccountmanager;
+
 import com.tgp_ntt.clientaccountmanager.CuentaBancaria;
 import org.junit.jupiter.api.Test;
 
