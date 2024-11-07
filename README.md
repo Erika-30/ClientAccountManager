@@ -1,46 +1,47 @@
 # ClientAccountManager
 
-## Descripción
-**ClientAccountManager** es un sistema bancario de gestión de clientes y cuentas bancarias. Este proyecto es parte del Bootcamp Tech Girls Power de NTT DATA, diseñado para demostrar conceptos de Programación Orientada a Objetos (POO), uso de Java y SQL, y la implementación de reglas de negocio básicas.
+## Description
+**ClientAccountManager** is a banking system for managing clients and bank accounts. This project is part of the Bootcamp Tech Girls Power by NTT DATA, designed to demonstrate Object-Oriented Programming (OOP) concepts, use of Java and SQL, and the implementation of basic business rules.
 
-El sistema permitirá a los clientes realizar las siguientes operaciones:
-- Registrar clientes.
-- Abrir cuentas bancarias.
-- Realizar depósitos y retiros.
-- Consultar el saldo de las cuentas.
+The system will allow clients to perform the following operations:
+- Register clients.
+- Open bank accounts.
+- Make deposits and withdrawals.
+- Check account balances.
 
-## Tecnologías Utilizadas
-- **Java 8 / Java 11**: Lenguaje de programación para el desarrollo del sistema.
-- **SQL (MySQL)**: Para la persistencia de datos de clientes y cuentas bancarias.
-- **Git y GitHub**: Control de versiones y almacenamiento del código.
-- **UML**: Diagramas para el modelado de clases y relaciones.
+## Technologies Used
+- **Java 8 / Java 11**: Programming language for system development.
+- **SQL (MySQL)**: For data persistence of clients and bank accounts.
+- **Git and GitHub**: Version control and code storage.
+- **UML**: Diagrams for class and relationship modeling.
 
-## Funcionalidades Principales
-1. **Gestión de Clientes**: Registro de clientes con validación de datos (nombre, apellido, DNI, correo electrónico).
-2. **Gestión de Cuentas Bancarias**: Apertura de cuentas (Ahorros o Corriente) con reglas de saldo y sobregiro.
-3. **Operaciones Financieras**:
-    - Depósitos: Incremento de saldo.
-    - Retiros: Verificación de reglas de saldo según el tipo de cuenta.
-    - Consulta de Saldo.
+## Main Features
+1. **Client Management**: Client registration with data validation (name, surname, ID, email).
+2. **Bank Account Management**: Opening accounts (Savings or Checking) with balance and overdraft rules.
+3. **Financial Operations**:
+    - Deposits: Balance increment.
+    - Withdrawals: Balance rules verification according to account type.
+    - Balance Inquiry.
 
-## Requisitos del Sistema
-- **Java 8 o 11** debe estar instalado y configurado.
-- **MySQL** para la gestión de la base de datos.
-- **Git** para el control de versiones y GitHub como repositorio remoto.
+## System Requirements
+- **Java 8 or 11** must be installed and configured.
+- **MySQL** for database management.
+- **Git** for version control and GitHub as a remote repository.
 
-## Estructura del Proyecto
-- `src`: Código fuente del proyecto.
-- `docs`: Documentación, incluyendo diagramas UML.
-- `database`: Scripts SQL para la creación y manejo de tablas en MySQL.
+## Project Structure
+- `src`: Project source code.
+- `docs`: Documentation, including UML diagrams.
+- `database`: SQL scripts for creating and managing tables in MySQL.
 
-## Instrucciones de Instalación
-1. Clona el repositorio:
+## Installation Instructions
+1. Clone the repository:
    ```bash
    git clone https://github.com/Erika-30/ClientAccountManager.git
-2. Abre el proyecto en IntelliJ IDEA.
-3. Asegúrate de tener Java 8 o 11 configurado en tu entorno.
-## Estado del Proyecto
-En desarrollo. Este proyecto está siendo desarrollado en el contexto del Bootcamp Tech Girls Power de NTT DATA.
+2. Open the project in IntelliJ IDEA.
+3. Ensure you have Java 8 or 11 configured in your environment.
 
-## Contribuciones
-Este proyecto es parte de un ejercicio de aprendizaje y actualmente no acepta contribuciones externas.
+## Project Status
+In development. This project is being developed in the context of the Bootcamp Tech Girls Power by NTT DATA.
+
+## Contributions
+This project is part of a learning exercise and currently does not accept external contributions.
